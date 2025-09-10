@@ -1,12 +1,20 @@
-# Day 01 - IsEven?
+# Day 01 - IsEven
 
 ### Problem
-Check if a number is even or odd.
+Write a function that checks if a given integer is even or odd.
 
-### Approach
-- Input number `n`
-- If `n % 2 == 0` → print Even  
-- Else → print Odd  
+- Function name: `IsEven`
+- Input: `input1` (integer)
+- Output:  
+  - Return **2** if `input1` is even  
+  - Return **1** if `input1` is odd  
 
-### Test Report
-✅ All test cases passed on Mettl.
+### Solution (Java)
+```java
+public int IsEven(int input1) {
+    if (input1 % 2 == 0) {
+        return 2;  // Even
+    } else {
+        return 1;  // Odd
+    }
+}
